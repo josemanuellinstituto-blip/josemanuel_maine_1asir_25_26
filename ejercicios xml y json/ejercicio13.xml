@@ -1,0 +1,8 @@
+<persona>
+    <nombre>juan</nombre>
+    <edad>22</edad>
+    <estudios>
+        <nivel>primario</nivel>
+        <nivel>secundario</nivel>
+    </estudios>
+</persona>

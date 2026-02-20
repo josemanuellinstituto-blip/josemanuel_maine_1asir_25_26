@@ -1,0 +1,14 @@
+{
+  "libros": {
+    "libro": {
+      "@id": "1",
+      "@year": "1999",
+      "autores": {
+        "nombre": [
+          "Ricardo Perez",
+          "Marta Gomez"
+        ]
+      }
+    }
+  }
+}

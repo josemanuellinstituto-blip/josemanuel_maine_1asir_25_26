@@ -1,0 +1,23 @@
+
+{
+    "persona": {
+        "nombre": "Jose",
+        "edad": "19",
+        "DNI": " 49088657K"
+    }
+}
+
+
+
+
+{
+    "alumno" : {
+    "nombre":"jose",
+    "curso": "ASIR",
+        "notas":
+        1 trimestre
+        2 trimestre
+        3 trimestre
+
+    }
+
