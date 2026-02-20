@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno>
+    <nombre>Juan</nombre>
+    <curso>2º ASIR</curso>
+        <evaluacion>
+            <primera>7</primera>
+            <segunda>5</segunda>
+            <tercera>6</tercera>
+        </evaluacion>
+</alumno>
