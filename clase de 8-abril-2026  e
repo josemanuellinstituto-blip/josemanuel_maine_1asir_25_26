@@ -1,0 +1,57 @@
+estructura de control
+
+que soolo tenga visualizar
+
+dados dos numeros enteros visualizar los comprendidos entre ambos
+
+
+
+let num1 = 3;
+let num2 = 10;
+
+if (num1 < num2) {
+    for (let i = num1 + 1; i < num2; i++) {
+        console.log(i);
+    }
+} else {
+    for (let i = num2 + 1; i < num1; i++) {
+        console.log(i);
+    }
+}
+
+
+
+
+
+visualizar los valores y cuantos valores negativos hay en un contador con una estructura de control negativa 
+
+
+let valores = [5, -3, 8, -1, 0, -7, 4];
+let contadorNegativos = 0;
+
+for (let i = 0; i < valores.length; i++) {
+    console.log("Valor:", valores[i]);
+
+    if (valores[i] < 0) {
+        contadorNegativos++;
+    }
+}
+
+console.log("Cantidad de valores negativos:", contadorNegativos);
+
+
+
+
+
+vamos a añadir una estructura de control alternativa que todo se haga siempre y  cuando el primer valor sea que el primero mayor que el segundo sino sera un error 
+
+
+
+function comprobarValores(a, b) {
+  if (a > b) {
+    console.log("Correcto: el primer valor es mayor");
+
+  } else {
+    console.log("Error: el primer valor no es mayor");
+  }
+}
