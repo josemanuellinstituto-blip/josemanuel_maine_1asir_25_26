@@ -1,0 +1,35 @@
+json las claves tienen comillas "{}"
+
+javascript no
+
+
+
+para trabajar en un lenguaje hay que pasar primero el objeto al lengujae de programacion que quieras
+
+
+en un objeto javascript puedes añadir una funcion.
+
+
+los array son con corchets []
+
+los objetos json son clave : valor	edad : 18
+
+
+
+objetos del array son hacia abajo que son  nombre juan edad 18
+					   nombre pepe edad 20   serian 2
+					   
+					   
+					   
+el push sirve para meterlo en un array
+
+
+partimos de distintos datos de notas de distintos alumnos la seuma d elas notas y las medias
+
+
+
+
+ primera funcion se visualiz las nombre
+ SEGUNDA funcion se visualiz la notas
+ TERCERA funcion se visualiz la suma
+CUARTA funcion se visualiz la media de las notas

@@ -1,0 +1,45 @@
+a partir de un objeto json recorrer un objeto javascript
+
+
+let textoJSON = '{"nombre": "Scott","color": "Negro","macho":true,"edad": 5}';
+const perro = JSON.parse(textoJSON);
+
+let claves = Object.keys(perro); // claves = ["nombre", "color", "macho", "edad"]
+for(let i=0; i< claves.length; i++){
+let clave = claves[i];
+console.log(perro[clave]);
+}
+
+
+
+let textoJSON = '{"nombre": "Scott","color": "Negro","macho":true,"edad": 5}';
+const perro = JSON.parse(textoJSON);
+
+let valores = Object.values(perro); // valores = ["Scott", "Negro", true, 5];
+for(let i=0; i< valores.length; i++){
+console.log(valores[i]);
+}
+
+
+let textoJSON = '{"nombre": "Scott","color": "Negro","macho":true,"edad": 5}';
+const perro = JSON.parse(textoJSON);
+
+for (let clave in perro){
+console.log(perro[clave]);
+}
+
+
+let textoJSON = '{"nombre": "Scott","color": "Negro","macho":true,"edad": 5}';
+const perro = JSON.parse(textoJSON);
+
+Object.entries(perro).forEach(([key, value]) => {
+console.log(value)
+});
+
+
+let textoJSON = '{"nombre": "Scott","color": "Negro","macho":true,"edad": 5}';
+const perro = JSON.parse(textoJSON);
+
+for(const [key, value] of Object.entries(perro)){
+console.log(value)
+}
