@@ -1,0 +1,31 @@
+
+const jsonEmpleados = ´ [ ´ +
+        ´{ nombre: "Carlos", departamento: "Ventas", salario: 800 },´+
+        ´{ nombre: "Ana", departamento: "Marketing", salario: 900 },´+
+        ´{ nombre: "Luis", departamento: "TI", salario: 1000 }´+
+    ]
+});
+
+let objeto_alumnos = JSON.parse(text);
+
+function guardarAlumno(objeto_alumnos) {
+    let array_objetos_alumnos = [];
+
+    for (let i = 0; i < objeto_alumnos.alumnos.length; i++) {
+        array_objetos_alumnos.push(objeto_alumnos.alumnos[i]);
+    }
+
+    return array_objetos_alumnos;
+}
+
+function mostrarAlumnos(array_objetos_alumnos) {
+
+    for (const key in array_objetos_alumnos) {
+        alert(            array_objetos_alumnos[key].nombre +
+            " - salario " +
+            array_objetos_alumnos[key].salario
+        );
+    }
+
+
+mostrarAlumnos(guardarAlumno(objeto_alumnos));
