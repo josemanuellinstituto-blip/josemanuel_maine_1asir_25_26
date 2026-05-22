@@ -1,0 +1,26 @@
+const empleados = [
+  {
+    nombre: "Ana",
+    pagos: [1200, 1300, 1250]
+  },
+  {
+    nombre: "Luis",
+    pagos: [1500, 1600]
+  },
+  {
+    nombre: "Marta",
+    pagos: [1000, 1100, 1150, 1200]
+
+  }]
+  
+  alert ( empleados[2]);
+  
+  //obejtos y con json
+//declarar una estructura json con los nombres  y pagos a distinto empleados un empleado puede tener varios pagos
+
+//apartado a por cada empleado la media de sus pagos
+
+//apartado b  visualizar el nombre dle empleado que obtenga mayor media
+
+//apartado c  obtener una super lista solo con los pagos  cada elemento de la array es otro array llamado subarray , de forma que el primer array tendra los pago del primer array 
+//y asi sucesivamente 
